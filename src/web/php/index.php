@@ -22,7 +22,7 @@
 <div class="header">
 	<h2>Home Page</h2>
 </div>
-	Welcome to my project page	
+	Project page	
 <div class="content">
   	<!-- notification message -->
   	<?php if (isset($_SESSION['success'])) : ?>
