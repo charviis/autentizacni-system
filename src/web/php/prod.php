@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         print "<br> id: ". $row["id"]. "<br> - Name: ". $row["username"]. "<br> - Email: " . $row["email"] . "<br>";
       print "<img src=\"".$row["img"]."\">";
-     
+      
     }
 } else {
     print "0 results";
