@@ -1,8 +1,11 @@
 <?php include ('server.php') ?>
+
 <!DOCTYPE html>
+
 <html>
 <head>
   <title>Registration system</title>
+  <link rel="icon" type="image/x-icon" href="src\web\imgs\logo.jpg">
   <link rel="stylesheet" type="text/css" href="/src/web/styles/style.css">
 </head>
 <body>
