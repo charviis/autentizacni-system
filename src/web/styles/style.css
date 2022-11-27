@@ -1,1 +1,16 @@
-/* TBD
+/* TBD */
+* {
+  background-color: #e6ccb2;
+  color: #7f5539;
+}
+
+.input-group,
+.header,
+.footer,
+p,
+.content {
+  display: grid;
+  place-items: center;
+  font-family: monospace;
+  font-size: large;
+}
