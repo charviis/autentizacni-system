@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="/src/web/styles/style.css">
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 <body>
   <div class="header">

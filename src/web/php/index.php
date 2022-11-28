@@ -15,14 +15,13 @@
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 <body>
 
 <div class="header">
 	<h2>Home Page</h2>
 </div>
-	Project page	
 <div class="content">
   	<!-- notification message -->
   	<?php if (isset($_SESSION['success'])) : ?>
@@ -42,6 +41,6 @@
     	<p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
     <?php endif ?>
 </div>
-
+<footer>Project page</footer>
 </body>
 </html>

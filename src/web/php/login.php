@@ -6,7 +6,7 @@
 <head>
   <title>Registration system</title>
   <link rel="icon" type="image/x-icon" href="src\web\imgs\logo.jpg">
-  <link rel="stylesheet" type="text/css" href="/src/web/styles/style.css">
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
 </head>
 <body>
   <div class="header">
