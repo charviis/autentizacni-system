@@ -1,9 +1,11 @@
 /* TBD */
+
 * {
   background-color: #e6ccb2;
   color: #7f5539;
+  margin: 0;
+  padding: 0;
 }
-
 
 .input-group,
 .header,
@@ -15,6 +17,14 @@ button,
   place-items: center;
   font-family: monospace;
   font-size: large;
+}
+
+.header {
+  padding: 20px;
+}
+
+.content {
+  line-height: 30px;
 }
 
 .input-group input[type="text"],
@@ -52,6 +62,43 @@ footer {
   margin: 0 auto;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, .3);
+}
+
+li,
+a {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 10%;
+  word-spacing: 70px;
+}
+
+.nav-links a {
+  list-style: none;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px;
+}
+
+nav a.active {
+  background: #345;
+}
+
+nav a:hover {
+  background: #ede0d4;
+  transition: 0.5s ease-in-out;
 }
 
 /* Path: ../styles/style.css */
