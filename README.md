@@ -1,4 +1,4 @@
-# mikroprojekt-Autentizacni-system
+# mikroprojekt Autentizacni system
 
 -Navrhni model databáze pro autentizaci uživatele pro webovou aplikaci, databázi naplň fiktivními údaji. Vytvoř autentizační webovou stránku.\
 -Pokud se uživatel úspěšně přihlásí, zobrazí se profilová stránka s jeho údaji z databáze včetně typu uživatele (silver, gold, platinum).\
